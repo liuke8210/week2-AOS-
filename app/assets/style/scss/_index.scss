@@ -1,0 +1,145 @@
+body{
+    font-family: "Roboto",sans-serif;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 80px;
+    line-height: 94px;
+    color: $text-light;
+    margin-bottom: $mb*4;
+}
+h2{
+    font-size: 64px;
+    line-height: 75px;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+.text-ss{
+    @include text-ss;
+}
+.text-s{
+    @include text-s;
+}
+.text-m{
+    @include text-m;
+}
+.text-l{
+    @include text-l;
+}
+.bg-dark{
+    background: $bg-dark;
+}
+.text-light{
+    color: $text-light;
+}
+.d-flex{
+    display: flex;
+}
+.mb-8{
+    margin-bottom: $mb*8;
+}
+.mb-7{
+    margin-bottom: $mb*7;
+}
+.mb-6{
+    margin-bottom: $mb*6;
+}
+.mb-5{
+    margin-bottom: $mb*5;
+}
+.mb-4{
+    margin-bottom: $mb*4;
+}
+.mb-3{
+    margin-bottom: $mb*3;
+}
+.mb-2{
+    margin-bottom: $mb*2;
+}
+.mr-2{
+    margin-right: $mr*2;
+}
+.bold{
+    font-weight: bold;
+}
+.banner{
+    &__bg{
+        max-width: 100%;
+        height: 958px;
+        background: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png") no-repeat;
+        background-size: cover;
+        background-position: center center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__content {
+        padding-top: 150px;
+    }
+}
+.about{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    img{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: $mb*3;
+    }
+    &__boder{
+        width: 384px;
+        margin-bottom: 32px;
+    }
+    &__list{
+        li{
+            position: relative;
+        }
+        li::before{
+            content: "";
+            width: 22px;
+            height: 22px;
+            background: #891818;
+            border-radius: 50%;
+            position: absolute;
+            top: 6px;
+            margin-left: -40px;
+        }
+    }
+}
+.brand{
+    &__content{
+        margin: 0 auto;
+        max-width: 1200px;
+        text-align: center;
+        padding-top: 64px;
+        padding-bottom: 120px;
+    }
+    &__list{
+        flex-wrap: wrap;
+        justify-content: center;
+        .mr-3{
+            margin-right: $mr*3;
+        }
+    }
+}
+.work{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    &__list{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: $mb*13;
+    }
+}
+.footer {
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}

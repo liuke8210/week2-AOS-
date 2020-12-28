@@ -1,0 +1,16 @@
+@mixin text-ss{
+    font-size: $font-s;
+    line-height: $line-height-l;
+}
+@mixin text-s{
+    font-size: $font-s;
+    line-height: $line-height-m;
+}
+@mixin text-m{
+    font-size: $font-m;
+    line-height: $line-height-l;
+}
+@mixin text-l{
+    font-size: $font-m;
+    line-height: $line-height-h;
+}
