@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Roboto",sans-serif; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+h1 {
+  font-size: 80px;
+  line-height: 94px;
+  color: #ffffff;
+  margin-bottom: 32px; }
+
+h2 {
+  font-size: 64px;
+  line-height: 75px; }
+
+img {
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+.text-ss {
+  font-size: 20px;
+  line-height: 28px; }
+
+.text-s {
+  font-size: 20px;
+  line-height: 30px; }
+
+.text-m {
+  font-size: 24px;
+  line-height: 28px; }
+
+.text-l {
+  font-size: 24px;
+  line-height: 36px; }
+
+.bg-dark {
+  background: #000000; }
+
+.text-light {
+  color: #ffffff; }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mb-8 {
+  margin-bottom: 64px; }
+
+.mb-7 {
+  margin-bottom: 56px; }
+
+.mb-6 {
+  margin-bottom: 48px; }
+
+.mb-5 {
+  margin-bottom: 40px; }
+
+.mb-4 {
+  margin-bottom: 32px; }
+
+.mb-3 {
+  margin-bottom: 24px; }
+
+.mb-2 {
+  margin-bottom: 16px; }
+
+.mr-2 {
+  margin-right: 16px; }
+
+.bold {
+  font-weight: bold; }
+
+.banner__bg {
+  max-width: 100%;
+  height: 958px;
+  background: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.banner__content {
+  padding-top: 150px; }
+
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
+  .about img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 24px; }
+  .about__boder {
+    width: 384px;
+    margin-bottom: 32px; }
+  .about__list li {
+    position: relative; }
+  .about__list li::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background: #891818;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    margin-left: -40px; }
+
+.brand__content {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 120px; }
+
+.brand__list {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .brand__list .mr-3 {
+    margin-right: 24px; }
+
+.work {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
+  .work__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 104px; }
+
+.footer {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 80px; }
+
+/*# sourceMappingURL=all.css.map */
